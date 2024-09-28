@@ -9,8 +9,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@solana-developers/helpers": "^2.5.6",
     "@solana/web3.js": "^1.95.3",
+    "esrun": "^3.2.26",
     "solana": "^1.0.7-development",
+    "typescript": "^5.6.2",
     "web3": "^4.13.0"
   }
 }
