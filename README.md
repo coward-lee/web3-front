@@ -1,9 +1,9 @@
 ### 准备：
 
 - 安装基本依赖：`npm install`
-- 安装web3相关的依赖 `npm install typescript @solana/web3.js esrun`
-- 安装代理相关的依赖 `npm install node-fetch @types/node-fetch https-proxy-agent`
-
+- 安装web3相关的依赖 `npm install typescript @solana/web3.js esrun` 或者 `yarn add  typescript @solana/web3.js esrun`
+- 安装代理相关的依赖 `npm install node-fetch @types/node-fetch https-proxy-agent` 或者 `yarn add  node-fetch @types/node-fetch https-proxy-agent`
+- 运行脚本 `npx esrun [itemfile]`
 链接solana需要注意的问题，配置clash代理之后，js也不会走代理，需要在代码里面强行配置proxy的信息才行
 ```typescript
 import fetch, {RequestInit, Response} from 'node-fetch';
@@ -26,3 +26,4 @@ const connection = new Connection("https://api.devnet.solana.com", {
 })
 
 ```
+
