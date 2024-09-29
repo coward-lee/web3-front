@@ -1,5 +1,5 @@
 import {LAMPORTS_PER_SOL, PublicKey} from "@solana/web3.js";
-import connection  from "./connection";
+import connection  from "../common/connection";
 
 const suppliedPublicKey = '6rapYNMKMZpN19g9jf7idUH9D9kLSbxAhjdBTm3B786L';
 if (!suppliedPublicKey) {
